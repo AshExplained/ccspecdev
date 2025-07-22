@@ -82,7 +82,39 @@ Executes specific tasks from a completed feature specification. The agent will:
 - **Requirement Traceability**: Every task references specific requirements
 - **Single Task Execution**: Prevents overwhelming complexity by focusing on one task at a time
 
-## Getting Started
+## How to Use
+
+### Installation Options
+
+You have two options for using these Claude Code slash commands:
+
+#### Option 1: Project-Specific Installation
+Copy the `.claude` folder from this repository to your specific project:
+
+```bash
+# Clone or download this repository
+git clone https://github.com/AshExplained/ccspecdev.git
+
+# Copy the .claude folder to your project
+cp -r ccspecdev/.claude /path/to/your/project/
+```
+
+This makes the slash commands available only within that specific project.
+
+#### Option 2: Global Installation  
+Copy the `.claude` folder to your home directory to make the slash commands available across all your projects:
+
+```bash
+# Clone or download this repository
+git clone https://github.com/AshExplained/ccspecdev.git
+
+# Copy the .claude folder to your home directory
+cp -r ccspecdev/.claude ~/
+```
+
+This makes the slash commands accessible from any Claude Code session on your system.
+
+### Getting Started
 
 1. **Initialize a Feature**: Use `/add-feature your-feature-idea` to start the specification process
 2. **Review & Approve**: Go through each phase, providing feedback and approval
